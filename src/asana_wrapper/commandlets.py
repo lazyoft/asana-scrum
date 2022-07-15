@@ -4,12 +4,12 @@ from collections import defaultdict
 from datetime import datetime, timedelta
 from timeit import default_timer as timer
 
-from AsanaProject import AsanaProject
-from AsanaTask import AsanaTask, TaskNameParser
-from AsanaSection import AsanaSection
-from NameParser import NameParser
+from .AsanaProject import AsanaProject
+from .AsanaTask import AsanaTask, TaskNameParser
+from .AsanaSection import AsanaSection
+from .NameParser import NameParser
 
-from constants import epics_section_name, stories_section_name, completion_sprint_name, sprints_section_name, \
+from .constants import epics_section_name, stories_section_name, completion_sprint_name, sprints_section_name, \
     priority_name, \
     estimate_hours_name, completed_hours_name, remaining_hours_name, estimate_days_name, remaining_days_name, \
     hours_per_day, done_section_name
