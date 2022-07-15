@@ -6,7 +6,7 @@ from typing import Generator, Callable, Any, List
 
 import dateutil.parser
 
-from NameParser import NameParser
+from .NameParser import NameParser
 
 
 class TaskNameParser(NameParser):

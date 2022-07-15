@@ -6,8 +6,8 @@ from typing import Generator
 import asana
 import dateutil.parser
 
-from AsanaSection import AsanaSection
-from AsanaTask import AsanaTask
+from .AsanaSection import AsanaSection
+from .AsanaTask import AsanaTask
 
 
 class AsanaProject:

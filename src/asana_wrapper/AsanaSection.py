@@ -2,7 +2,7 @@ from __future__ import annotations
 
 from typing import Generator
 
-from AsanaTask import AsanaTask
+from .AsanaTask import AsanaTask
 
 
 class AsanaSection:
