@@ -1,0 +1,12 @@
+hours_per_day = 4.5
+estimate_hours_name = "Estimate (hours)"
+completed_hours_name = "Completed (hours)"
+remaining_hours_name = "Remaining (hours)"
+remaining_days_name = "Remaining (days)"
+estimate_days_name = "Estimate (days)"
+completion_sprint_name = "Completion Sprint #"
+priority_name = "Priority"
+epics_section_name = 'Epics'
+stories_section_name = "Stories"
+sprints_section_name = "Sprints"
+done_section_name = "Done"
